@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Testimonials</title>
+    <link rel="stylesheet" href="src/styles/testimonials.css">
+</head>
+<body style="background-color: rgb(58, 26, 171); margin: 0;">
+
+  <nav class="navbar">
+    <div class="logo">EDUWAY</div>
+    <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="testionial.html">Testimonial</a></li>
+        <li><a href="contact-us.html"><button class="contact-btn">Contact Us</button></a></li>
+    </ul>
+</nav><hr>
+
+    <div class="testimonials-container" style="background-color: rgb(58, 26, 171);">
+
+      
+        <h1 class="section-title" style="color: white;">What Our Clients Say</h1>
+        
+        <!-- Text Testimonials -->
+        <div class="testimonials-grid"></div>
+
+        <!-- Video Testimonials -->
+        <div class="video-testimonials">
+            <h2 class="section-title" style="color: white;">Video Testimonials</h2>
+            <div class="video-grid">
+                <div class="video-wrapper">d
+                    <iframe src="https://res.cloudinary.com/dsnqf3s0s/video/upload/v1733934641/WhatsApp_Video_2024-11-29_at_8.08.27_AM_1_r0herq.mp4" 
+                            frameborder="0" 
+                            allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                </div>
+                <div class="video-wrapper">
+                    <iframe src="https://res.cloudinary.com/dsnqf3s0s/video/upload/v1733934645/WhatsApp_Video_2024-11-28_at_7.53.35_PM_mco8vo.mp4" 
+                            frameborder="0" 
+                            allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; controls" 
+                            allowfullscreen></iframe>
+                </div>
+
+                <div class="video-wrapper">
+                    <iframe src="https://res.cloudinary.com/dsnqf3s0s/video/upload/v1733934638/WhatsApp_Video_2024-11-28_at_7.53.36_PM_y2kdao.mp4" 
+                            frameborder="0" 
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                </div>
+
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                            frameborder="0" 
+                            allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen></iframe>
+                </div>
+
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                            frameborder="0" 
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen ></iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/+91 9494552359" class="whatsapp-button" target="_blank" rel="noopener noreferrer">
+        <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z"/>
+        </svg>
+        WhatsApp Us
+    </a>
+
+    <script src="src/js/testimonials.js"></script>
+</body>
+</html>
+
+<style>/* Advanced testimonial styles */
+    .testimonials-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 4rem 2rem;
+        background-color: #ffffff;
+      }
+      
+      .section-title {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 3rem;
+        color: #000;
+        position: relative;
+        font-weight: 700;
+      }
+      
+      .section-title::after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60px;
+        height: 3px;
+        background-color: #000;
+      }
+      
+      .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+      
+      .testimonial-card {
+        background: #fff;
+        border: 1px solid #000;
+        padding: 2rem;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .testimonial-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+      
+      .testimonial-card::before {
+        content: '"';
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 4rem;
+        color: rgba(0, 0, 0, 0.1);
+        font-family: Georgia, serif;
+      }
+      
+      .testimonial-text {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #333;
+        margin-bottom: 1.5rem;
+      }
+      
+      .testimonial-author {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+      
+      .author-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #000;
+      }
+      
+      .author-info {
+        flex-grow: 1;
+      }
+      
+      .author-name {
+        font-weight: 600;
+        color: #000;
+        margin: 0;
+      }
+      
+      .author-title {
+        font-size: 0.9rem;
+        color: #666;
+        margin: 0;
+      }
+      
+      .video-testimonials {
+        margin-top: 4rem;
+      }
+      
+      .video-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+      
+      .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        border: 2px solid #000;
+        transition: transform 0.3s ease;
+      }
+      
+      .video-wrapper:hover {
+        transform: scale(1.02);
+      }
+      
+      .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      .whatsapp-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #25D366;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+}
+      
+      @media (max-width: 768px) {
+        .testimonials-grid,
+        .video-grid {
+          grid-template-columns: 1fr;
+        }
+        
+        .section-title {
+          font-size: 2rem;
+        }
+        .whatsapp-button {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    padding: 0.6rem 1.2rem;
+  }
+      }
+      :root {
+    --primary-blue: rgb(58, 26, 171);
+    --secondary-blue: #003366;
+    --white: #ffffff;
+    --light-blue: #e6f0ff;
+}
+    .navbar {
+    background-color: var(--primary-blue);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--light-blue);
+}
+
+.contact-btn {
+    background-color: var(--white);
+    color: var(--primary-blue);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.contact-btn:hover {
+    background-color: var(--light-blue);
+    transform: translateY(-2px);
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--white);
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--primary-blue);
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+  }
+      
+      
+      
+      </style>
+
+      <script>// Testimonials data
+        const testimonials = [
+            {
+                text: "The service provided was exceptional. The attention to detail and professional approach made all the difference.",
+                author: "Falguni",
+                title: "Student",
+                image: "https://res.cloudinary.com/dsnqf3s0s/image/upload/v1733934608/WhatsApp_Image_2024-12-06_at_2.45.09_PM_okgxbt.jpg  "
+            },
+            {
+                text: "I was amazed by the quality of work. It exceeded all my expectations and delivered outstanding results.",
+                author: "Bhuvaneswari",
+                title: "Student",
+                image: "https://res.cloudinary.com/dsnqf3s0s/image/upload/v1733934608/WhatsApp_Image_2024-12-06_at_2.45.26_PM_ti17ir.jpg"
+            },
+            {
+                text: "Working with this team has been a game-changer for our business. Their expertise and dedication are unmatched.",
+                author: "Venkata Ramana",
+                title: "Student",
+                image: "https://res.cloudinary.com/dsnqf3s0s/image/upload/v1733997517/WhatsApp_Image_2024-12-12_at_15.25.18_1952b21d-1_deqmnb.jpg"
+            }
+
+            
+          
+
+        ];
+        
+        // Function to create testimonial cards
+        function createTestimonialCard(testimonial) {
+            return `
+                <div class="testimonial-card">
+                    <p class="testimonial-text">${testimonial.text}</p>
+                    <div class="testimonial-author">
+                        <img src="${testimonial.image}" alt="${testimonial.author}" class="author-image">
+                        <div class="author-info">
+                            <h4 class="author-name">${testimonial.author}</h4>
+                            <p class="author-title">${testimonial.title}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        // Initialize testimonials
+        function initTestimonials() {
+            const testimonialsGrid = document.querySelector('.testimonials-grid');
+            testimonials.forEach(testimonial => {
+                testimonialsGrid.innerHTML += createTestimonialCard(testimonial);
+            });
+        }
+        
+        // Add fade-in animation on scroll
+        function addScrollAnimation() {
+            const cards = document.querySelectorAll('.testimonial-card, .video-wrapper');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+        
+            cards.forEach(card => {
+                card.style.opacity = 0;
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                observer.observe(card);
+            });
+        }
+        
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            initTestimonials();
+            addScrollAnimation();
+        });
+        
+        
+        document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        
+        // Animate hamburger
+        const spans = hamburger.querySelectorAll('span');
+        spans.forEach(span => span.classList.toggle('active'));
+    });
+});
+        
+        </script>
